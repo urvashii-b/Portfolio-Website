@@ -12,7 +12,7 @@ const App: React.FC = () => {
         </section>
         <section className="description">
           <p>
-            Urvashi is a computer science student and tech enthusiast, transforming innovative ideas into <br></br>practical solutions. She's currently a developer at Hyderabad Ammonia & Chemicals and actively participates in hackathons.
+            Urvashi is a computer science student and tech enthusiast, transforming innovative ideas into practical solutions. She's currently a developer at Hyderabad Ammonia & Chemicals and actively participates in hackathons.
           </p>
         </section>
         <hr />
@@ -94,7 +94,7 @@ const App: React.FC = () => {
         </section>
         <hr />
         <section id='tech-stack'>
-
+          <h2>Technology Stack</h2>
         </section>
       </main>
     </div>
