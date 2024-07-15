@@ -1,0 +1,76 @@
+body {
+  font-family: 'DM Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.container {
+  display: flex;
+}
+
+.main-content {
+  flex-grow: 1;
+  padding-top: 30px;
+  overflow-y: auto;
+}
+
+.intro {
+  margin-bottom: 30px;
+}
+
+.hello {
+  font-size: 20px;
+  font-weight: 300;
+  color: black;
+  padding-left: 100px;
+}
+
+.description {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 1.1;
+  padding-left: 100px;
+  background: linear-gradient(to right, rgb(224, 224, 224), rgb(50, 50, 50));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.p1 {
+  color: #AF4CE0;
+  font-size: 17px;
+}
+
+
+hr {
+  border-top: 1px solid #e0e0e0;
+  margin: 20px 0;
+}
+#projects h2 {
+  padding-left: 100px;
+  font-size: 23px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: #8b8b8b;
+}
+
+.project-details .project-title {
+  font-weight: 500; 
+  margin-bottom: 2px; 
+  font-size: 18px;
+}
+
+.projects-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 400px); 
+  padding-left: 70px;
+  column-gap: 25px;
+  
+}
+
+.project-card {
+  background-color: #ffffff;
+  text-align: center;
+  color: black;
+}
