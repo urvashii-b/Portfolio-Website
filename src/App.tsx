@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from './components/Sidebar';
+import Sidebar from '../@/components/Sidebar';
 import './App.css';
 
 const App: React.FC = () => {
@@ -12,8 +12,7 @@ const App: React.FC = () => {
         </section>
         <section className="description">
           <p>
-            Urvashi is a computer science student and tech enthusiast, transforming innovative ideas into
-            <br></br>practical solutions. She's currently a developer at Hyderabad Ammonia & Chemicals and actively participates in hackathons.
+            Urvashi is a computer science student and tech enthusiast, transforming innovative ideas into <br></br>practical solutions. She's currently a developer at Hyderabad Ammonia & Chemicals and actively participates in hackathons.
           </p>
         </section>
         <hr />
@@ -92,6 +91,10 @@ const App: React.FC = () => {
               </div>
             </div>
           </div>
+        </section>
+        <hr />
+        <section id='tech-stack'>
+
         </section>
       </main>
     </div>
