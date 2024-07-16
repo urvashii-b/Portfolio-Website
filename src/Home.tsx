@@ -20,7 +20,7 @@ const Home: React.FC = () => {
             <h2>Projects</h2>
             <div className="projects-grid">
               <div className="project-card">
-                <img src="src\images\mediwise.png" alt="Mediwise" width={400} height={250}/>
+                <img src="src\assets\images\mediwise.png" alt="Mediwise" width={400} height={250}/>
                 <div className="project-details">
                   <div className="project-title">Mediwise ~ Winner | Ingenius 12.0</div>
                   <p className='p1'>Smart Inventory Management</p>
@@ -28,7 +28,7 @@ const Home: React.FC = () => {
               </div>
               
               <div className="project-card">
-                <img src="src\images\emotify.png" alt="Emotify" width={380} height={350}/>
+                <img src="src\assets\images\emotify.png" alt="Emotify" width={380} height={350}/>
                 <div className="project-details">
                   <div className="project-title">Emotify | Arithemania 2.0</div>
                   <p className='p1'>Music Recommendation System ↗</p>
@@ -36,7 +36,7 @@ const Home: React.FC = () => {
               </div>
   
               <div className="project-card">
-                <img src="src\images\llmhub.png" alt="LLM-Hub" width={400} height={200}/>
+                <img src="src\assets\images\llmhub.png" alt="LLM-Hub" width={400} height={200}/>
                 <div className="project-details">
                   <div className="project-title">LLM-Hub</div>
                   <p className='p1'>Repository of Generative AI Projects ↗</p>
@@ -45,7 +45,7 @@ const Home: React.FC = () => {
   
               {/* Stack 2 */}
               <div className="project-card">
-                <img src="src\images\aibotique.png" alt="AiBotique" width={380} height={350}/>
+                <img src="src\assets\images\aibotique.png" alt="AiBotique" width={380} height={350}/>
                 <div className="project-details">
                   <div className="project-title">AiBotique ~ Top 10 | Kodikon 3.0</div>
                   <p className='p1'>DALL·E 2 for generating styles ↗</p>
@@ -60,7 +60,7 @@ const Home: React.FC = () => {
               </div>
               
               <div className="project-card">
-                <img src="src\images\guide.png" alt="Guide" width={400}/>
+                <img src="src\assets\images\guide.png" alt="Guide" width={400}/>
                 <div className="project-details">
                   <div className="project-title">Guide ~ SIH 2023</div>
                   <p className='p1'>Future help with AI prototype</p>
@@ -68,14 +68,14 @@ const Home: React.FC = () => {
               </div>
               {/* Stack 3 */}
               <div className="project-card">
-                <img src="src\images\findissue.png" alt="findIssue" width={400} height={600}/>
+                <img src="src\assets\images\findissue.png" alt="findIssue" width={400} height={600}/>
                 <div className="project-details">
                   <div className="project-title">findIssue ~ Buildspace</div>
                   <p className='p1'>Open-Source Contributing Assistant ↗</p>
                 </div>
               </div>
               <div className="project-card">
-                <img src="src\images\da-hackathon.png" alt="Project 8" height={550} width={390}/>
+                <img src="src\assets\images\da-hackathon.png" alt="Project 8" height={550} width={390}/>
                 <div className="project-details">
                   <div className="project-title">Kaggle Rank: 32/300</div>
                   <p className='p1'>Stock Price Prediction ↗</p>
@@ -96,24 +96,25 @@ const Home: React.FC = () => {
             <br></br>
             <div className="tech-stack-logos-container">
             <div className="tech-stack-logos">
-              <img src="src/images/cpp.png" alt="C++ Logo" className="tech-logo" />
-              <img src="src/images/framer.png" alt="Framer Logo" className="tech-logo" />
-              <img src="src/images/gpt.png" alt="GPT Logo" className="tech-logo" />
-              <img src="src/images/mysql.png" alt="MySQL Logo" className="tech-logo" />
-              <img src="src/images/py.png" alt="Python Logo" className="tech-logo" />
-              <img src="src/images/tailwind.png" alt="Tailwind CSS Logo" className="tech-logo" />
-              <img src="src/images/vite.png" alt="Vite Logo" className="tech-logo" />
-              <img src="src/images/react.png" alt="React Logo" className="tech-logo" />
-              <img src="src/images/mongo.png" alt="Mongo Logo" className="tech-logo" />
-              <img src="src/images/cpp.png" alt="C++ Logo" className="tech-logo" />
-              <img src="src/images/framer.png" alt="Framer Logo" className="tech-logo" />
-              <img src="src/images/gpt.png" alt="GPT Logo" className="tech-logo" />
-              <img src="src/images/mysql.png" alt="MySQL Logo" className="tech-logo" />
-              <img src="src/images/py.png" alt="Python Logo" className="tech-logo" />
-              <img src="src/images/tailwind.png" alt="Tailwind CSS Logo" className="tech-logo" />
-              <img src="src/images/vite.png" alt="Vite Logo" className="tech-logo" />
-              <img src="src/images/react.png" alt="React Logo" className="tech-logo" />
-              <img src="src/images/mongo.png" alt="Mongo Logo" className="tech-logo" />
+              <img src="src\assets\images\cpp.png" alt="C++ Logo" className="tech-logo" />
+              <img src="src\assets\images\framer.png" alt="Framer Logo" className="tech-logo" />
+              <img src="src\assets\images\gpt.png" alt="GPT Logo" className="tech-logo" />
+              <img src="src\assets\images\mysql.png" alt="MySQL Logo" className="tech-logo" />
+              <img src="src\assets\images\py.png" alt="Python Logo" className="tech-logo" />
+              <img src="src\assets\images\tailwind.png" alt="Tailwind CSS Logo" className="tech-logo" />
+              <img src="src\assets\images\vite.png" alt="Vite Logo" className="tech-logo" />
+              <img src="src\assets\images\react.png" alt="React Logo" className="tech-logo" />
+              <img src="src\assets\images\mongo.png" alt="Mongo Logo" className="tech-logo" />
+              <img src="src\assets\images\cpp.png" alt="C++ Logo" className="tech-logo" />
+              <img src="src\assets\images\framer.png" alt="Framer Logo" className="tech-logo" />
+              <img src="src\assets\images\gpt.png" alt="GPT Logo" className="tech-logo" />
+              <img src="src\assets\images\mysql.png" alt="MySQL Logo" className="tech-logo" />
+              <img src="src\assets\images\py.png" alt="Python Logo" className="tech-logo" />
+              <img src="src\assets\images\tailwind.png" alt="Tailwind CSS Logo" className="tech-logo" />
+              <img src="src\assets\images\vite.png" alt="Vite Logo" className="tech-logo" />
+              <img src="src\assets\images\react.png" alt="React Logo" className="tech-logo" />
+              <img src="src\assets\images\mongo.png" alt="Mongo Logo" className="tech-logo" />
+              
             </div>
           </div>
           <br></br>
