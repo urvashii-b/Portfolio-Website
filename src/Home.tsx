@@ -1,6 +1,9 @@
 import React from 'react';
 import Sidebar from './components/NavBar/Sidebar';
 import './index.css'
+
+import img1 from './assets/images/cpp.png';
+
 const Home: React.FC = () => {
     return (
       
@@ -96,7 +99,7 @@ const Home: React.FC = () => {
             <br></br>
             <div className="tech-stack-logos-container">
             <div className="tech-stack-logos">
-              <img src="src/assets/images/cpp.png" alt="C++ Logo" className="tech-logo" />
+              <img src={img1} alt="C++ Logo" className="tech-logo" />
               <img src="src\assets\images\framer.png" alt="Framer Logo" className="tech-logo" />
               <img src="src\assets\images\gpt.png" alt="GPT Logo" className="tech-logo" />
               <img src="src\assets\images\mysql.png" alt="MySQL Logo" className="tech-logo" />
