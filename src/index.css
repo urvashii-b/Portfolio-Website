@@ -67,3 +67,39 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+.tech-stack-logos-container {
+  overflow: hidden;
+  margin-left: 100px;
+  margin-right: 30px;
+}
+
+.tech-stack-logos {
+  display: flex;
+  animation: moveLogos 10s linear infinite; /* Adjust animation duration and timing function as needed */
+}
+
+/* Individual logo style */
+.tech-logo {
+  width: 120px; 
+  height: auto;
+  margin: 0 20px; 
+}
+
+/* Keyframes for the animation */
+@keyframes moveLogos {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+#footer h5 {
+  padding-left: 100px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  font-weight: 400;
+  color: black;
+}

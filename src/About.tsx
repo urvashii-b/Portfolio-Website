@@ -1,12 +1,12 @@
 import React from 'react';
+import Marquee from './components/magicui/marquee';
 
 const About: React.FC = () => {
   return (
-    <div className="container mx-auto p-4">
-      <h1 className="text-3xl font-bold">About</h1>
-      <p className="mt-4">This is the about page content.</p>
+    <div className="about-page">
+      <Marquee></Marquee>
     </div>
   );
-}
+};
 
 export default About;
