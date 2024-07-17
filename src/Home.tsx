@@ -125,7 +125,16 @@ const Home: React.FC = () => {
               <img src={img8} alt="Tailwind CSS Logo" className="tech-logo" />
               <img src={img9} alt="Vite Logo" className="tech-logo" />
               <img src={img7} alt="React Logo" className="tech-logo" />
-              <img src={img4} alt="Mongo Logo" className="tech-logo" /> 
+              <img src={img4} alt="Mongo Logo" className="tech-logo" />
+              <img src={img1} alt="C++ Logo" className="tech-logo" />
+              <img src={img2} alt="Framer Logo" className="tech-logo" />
+              <img src={img3} alt="GPT Logo" className="tech-logo" />
+              <img src={img5} alt="MySQL Logo" className="tech-logo" />
+              <img src={img6} alt="Python Logo" className="tech-logo" />
+              <img src={img8} alt="Tailwind CSS Logo" className="tech-logo" />
+              <img src={img9} alt="Vite Logo" className="tech-logo" />
+              <img src={img7} alt="React Logo" className="tech-logo" />
+              <img src={img4} alt="Mongo Logo" className="tech-logo" />  
             </div>
           </div>
           <br></br>
