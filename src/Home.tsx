@@ -11,6 +11,7 @@ import img6 from './assets/images/py.png';
 import img7 from './assets/images/react.png';
 import img8 from './assets/images/tailwind.png';
 import img9 from './assets/images/vite.png';
+import img10 from './assets/images/svelte.png';
 
 import p1 from './assets/images/mediwise.png';
 import p2 from './assets/images/emotify.png';
@@ -126,6 +127,7 @@ const Home: React.FC = () => {
               <img src={img9} alt="Vite Logo" className="tech-logo" />
               <img src={img7} alt="React Logo" className="tech-logo" />
               <img src={img4} alt="Mongo Logo" className="tech-logo" />
+              <img src={img10} alt="Svelte Logo" className="tech-logo" />
               <img src={img1} alt="C++ Logo" className="tech-logo" />
               <img src={img2} alt="Framer Logo" className="tech-logo" />
               <img src={img3} alt="GPT Logo" className="tech-logo" />
@@ -135,6 +137,7 @@ const Home: React.FC = () => {
               <img src={img9} alt="Vite Logo" className="tech-logo" />
               <img src={img7} alt="React Logo" className="tech-logo" />
               <img src={img4} alt="Mongo Logo" className="tech-logo" />  
+              <img src={img10} alt="Svelte Logo" className="tech-logo" />
             </div>
           </div>
           <br></br>
