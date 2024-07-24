@@ -78,7 +78,14 @@ button:focus-visible {
   display: flex;
   animation: moveLogos 10s linear infinite; /* Adjust animation duration and timing function as needed */
 }
+.project-card .project-details a {
+  color: #AF4CE0;
+  text-decoration: none; /* Optional: removes underline from the link */
+}
 
+.project-card .project-details a:hover {
+  text-decoration: underline; /* Optional: adds underline on hover for better user experience */
+}
 /* Individual logo style */
 .tech-logo {
   width: 120px; 
@@ -102,4 +109,36 @@ button:focus-visible {
   margin-bottom: 10px;
   font-weight: 400;
   color: black;
+}
+
+@media only screen and (max-width: 768px) {
+  .description p {
+    font-size: 16px; /* Smaller font size for smaller screens */
+  }
+
+  .projects-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; /* Space between project cards */
+  }
+
+  .project-card {
+    width: 60%; /* Make each project card take full width on smaller screens */
+    max-width: 60%; /* Ensure no overflow */
+  }
+
+  .project-card img,
+  .project-card video {
+    width: 50%;
+    height: auto; /* Maintain aspect ratio */
+  }
+  .tech-logo {
+    width: 60px; 
+    height: auto;
+    margin: 0 10px; 
+  }
+
+  h2 {
+    font-size: 20px; /* Smaller font size for phone screens */
+  }
 }

@@ -12,7 +12,6 @@ import img7 from './assets/images/react.png';
 import img8 from './assets/images/tailwind.png';
 import img9 from './assets/images/vite.png';
 import img10 from './assets/images/svelte.png';
-
 import p1 from './assets/images/mediwise.png';
 import p2 from './assets/images/emotify.png';
 import p3 from './assets/images/llmhub.png';
@@ -53,7 +52,9 @@ const Home: React.FC = () => {
                 <img src={p2} alt="Emotify" width={380} height={350}/>
                 <div className="project-details">
                   <div className="project-title">Emotify | Arithemania 2.0</div>
-                  <p className='p1'>Music Recommendation System ↗</p>
+                  <p className='p1'>
+                  <a href="https://github.com/urvashii-b/Emotify" target="_blank" rel="noopener noreferrer">Music Recommendation System ↗</a>
+                  </p>
                 </div>
               </div>
   
@@ -61,7 +62,9 @@ const Home: React.FC = () => {
                 <img src={p3} alt="LLM-Hub" width={400} height={200}/>
                 <div className="project-details">
                   <div className="project-title">LLM-Hub</div>
-                  <p className='p1'>Repository of Generative AI Projects ↗</p>
+                  <p className='p1'>
+                    <a href='https://github.com/urvashii-b/LLM-Hub' target="_blank" rel="noopener noreferrer">Repository of Generative AI Projects ↗</a>
+                    </p>
                 </div>
               </div>
   
@@ -70,14 +73,19 @@ const Home: React.FC = () => {
                 <img src={p4} alt="AiBotique" width={380} height={350}/>
                 <div className="project-details">
                   <div className="project-title">AiBotique ~ Top 10 | Kodikon 3.0</div>
-                  <p className='p1'>DALL·E 2 for generating styles ↗</p>
+                  <p className='p1'>
+                    <a href='https://github.com/urvashii-b/ArBotique' target="_blank" rel="noopener noreferrer">DALL·E 2 for generating styles ↗</a>
+                    
+                  </p>
                 </div>
               </div>
               <div className="project-card">
                 <video src={p5} loop muted autoPlay playsInline width={400}></video>
                 <div className="project-details">
                   <div className="project-title">Screen Share</div>
-                  <p className='p1'>View others screens on your own ↗</p>
+                  <p className='p1'>
+                    <a href='https://github.com/urvashii-b/ScreenShare' target="_blank" rel="noopener noreferrer">View others screens on your own ↗</a>
+                    </p>
                 </div>
               </div>
               
@@ -93,21 +101,28 @@ const Home: React.FC = () => {
                 <img src={p7} alt="findIssue" width={400} height={600}/>
                 <div className="project-details">
                   <div className="project-title">findIssue ~ Buildspace</div>
-                  <p className='p1'>Open-Source Contributing Assistant ↗</p>
+                  <p className='p1'>
+      <a href="https://drive.google.com/file/d/1MSmPUrZy2sKfxWuKo1GD_yoDB37ne4s2/view?usp=sharing" target="_blank" rel="noopener noreferrer">
+        Open-Source Contributing Assistant ↗
+      </a>
+    </p>
                 </div>
               </div>
               <div className="project-card">
                 <img src={p9} alt="Project 8" height={550} width={390}/>
                 <div className="project-details">
                   <div className="project-title">Kaggle Rank: 32/300</div>
-                  <p className='p1'>Stock Price Prediction ↗</p>
+                  <p className='p1'>
+                    <a href='https://github.com/urvashii-b/Stock-Price-Prediction' target="_blank" rel="noopener noreferrer">Stock Price Prediction ↗</a></p>
                 </div>
               </div>
               <div className="project-card">
                 <video src={p8} loop muted autoPlay playsInline width={400}></video>
                 <div className="project-details">
                   <div className="project-title">Royal Resolve</div>
-                  <p className='p1'>N-Queens Python Game ↗</p>
+                  <p className='p1'>
+                    <a href='https://github.com/urvashii-b/RoyalResolve' target="_blank" rel="noopener noreferrer"> N-Queens Python Game ↗</a>
+                   </p>
                 </div>
               </div>
             </div>
