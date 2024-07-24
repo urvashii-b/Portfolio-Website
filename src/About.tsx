@@ -1,10 +1,10 @@
 import React from 'react';
-import Marquee from './components/magicui/marquee';
+import Sidebar from './components/NavBar/Sidebar';
 
 const About: React.FC = () => {
   return (
     <div className="about-page">
-      <Marquee></Marquee>
+      <Sidebar></Sidebar>
     </div>
   );
 };

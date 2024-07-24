@@ -44,7 +44,10 @@ const Home: React.FC = () => {
                 <img src={p1} alt="Mediwise" width={400} height={250}/>
                 <div className="project-details">
                   <div className="project-title">Mediwise ~ Winner | Ingenius 12.0</div>
-                  <p className='p1'>Smart Inventory Management</p>
+                  <p className='p1'>
+                    <a href='https://drive.google.com/file/d/1k-GV4wHAz74AnKLz7SpLgWI5RiZTXb9-/view?usp=sharing' target="_blank" rel="noopener noreferrer">Smart Inventory Management ↗</a>
+                    
+                    </p>
                 </div>
               </div>
               
@@ -160,6 +163,7 @@ const Home: React.FC = () => {
           </section>
           <section id='footer' className="footer">
           <h5>© Urvashi Bhargava</h5>
+          <br></br>
           </section>
         </main>
       </div>
