@@ -7,14 +7,15 @@ const Sidebar: React.FC = () => {
     <aside className="sidebar">
       <div className="sidebar-content">
         <div className="title">
-          उर्वशी
+          <Link to="/" className='title-link'>उर्वशी</Link>
         </div>
         <nav>
           <ul>
             <li><a href="https://leetcode.com/u/urvashiiibh/">LeetCode ↗</a></li>
-            <li><Link to="/about">About</Link></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href="#blogs">Blogs</a></li>
+            <li><Link to="/about">About</Link></li>
+            
+            <li><Link to="/blogs">Blogs</Link></li>
           </ul>
         </nav>
         <hr />

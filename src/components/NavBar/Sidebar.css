@@ -10,7 +10,7 @@ body {
 .sidebar {
   position: sticky;
   top: 0;
-  width: 240px;
+  width: 120px;
   height: 100vh;
   background-color: #ffffff;
   padding: 20px;
@@ -38,6 +38,16 @@ body {
   border-radius: 12px;
   margin-bottom: 20px;
   text-align: center;
+}
+
+.title-link {
+  color: black;
+  text-decoration: none; /* Optional: Remove underline */
+}
+
+/* Optional: Add hover effect if desired */
+.title-link:hover {
+  color: rgb(0, 229, 255); /* Or any other hover color */
 }
 
 .contact-title{
