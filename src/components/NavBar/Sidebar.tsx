@@ -14,8 +14,7 @@ const Sidebar: React.FC = () => {
             <li><a href="https://leetcode.com/u/urvashiiibh/">LeetCode ↗</a></li>
             <li><a href="#projects">Projects</a></li>
             <li><a href='https://urvashi-about.vercel.app/'>^_^ About</a></li>
-            
-            <li><Link to="/blogs">Blogs</Link></li>
+            <li><a href='https://counsel-ai.vercel.app/'>Counsel AI</a></li>
           </ul>
         </nav>
         <hr />
