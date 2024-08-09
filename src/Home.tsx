@@ -13,11 +13,11 @@ import img8 from './assets/images/tailwind.png';
 import img9 from './assets/images/vite.png';
 import img10 from './assets/images/svelte.png';
 import p1 from './assets/images/mediwise.png';
-import p2 from './assets/images/emotify.png';
+import p2 from './assets/images/emotify.jpg';
 import p3 from './assets/images/llmhub.png';
 import p4 from './assets/images/aibotique.png';
 import p5 from './assets/screenshare.mp4';
-import p6 from './assets/images/guide.png';
+import p6 from './assets/images/guide.jpg';
 import p7 from './assets/images/findIssue.png';
 import p8 from './assets/n-queens.mp4';
 import p9 from './assets/images/da-hackathon.png';
@@ -52,7 +52,7 @@ const Home: React.FC = () => {
               </div>
               
               <div className="project-card">
-                <img src={p2} alt="Emotify" width={380} height={350}/>
+                <img src={p2} alt="Emotify" width={370} height={260}/>
                 <div className="project-details">
                   <div className="project-title">Emotify | Arithemania 2.0</div>
                   <p className='p1'>
@@ -62,7 +62,7 @@ const Home: React.FC = () => {
               </div>
   
               <div className="project-card">
-                <img src={p3} alt="LLM-Hub" width={400} height={200}/>
+                <img src={p3} alt="LLM-Hub" width={400} height={250}/>
                 <div className="project-details">
                   <div className="project-title">LLM-Hub</div>
                   <p className='p1'>
@@ -73,7 +73,7 @@ const Home: React.FC = () => {
   
               {/* Stack 2 */}
               <div className="project-card">
-                <img src={p4} alt="AiBotique" width={380} height={350}/>
+                <img src={p4} alt="AiBotique" width={360} height={300}/>
                 <div className="project-details">
                   <div className="project-title">AiBotique ~ Top 10 | Kodikon 3.0</div>
                   <p className='p1'>
@@ -83,7 +83,7 @@ const Home: React.FC = () => {
                 </div>
               </div>
               <div className="project-card">
-                <video src={p5} loop muted autoPlay playsInline width={400}></video>
+                <video src={p5} loop muted autoPlay playsInline width={420}></video>
                 <div className="project-details">
                   <div className="project-title">Screen Share</div>
                   <p className='p1'>
@@ -93,7 +93,7 @@ const Home: React.FC = () => {
               </div>
               
               <div className="project-card">
-                <img src={p6} alt="Guide" width={400}/>
+                <img src={p6} alt="Guide" width={380}/>
                 <div className="project-details">
                   <div className="project-title">Guide ~ SIH 2023</div>
                   <p className='p1'>Future help with AI prototype</p>

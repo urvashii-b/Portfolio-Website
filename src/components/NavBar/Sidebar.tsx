@@ -13,7 +13,7 @@ const Sidebar: React.FC = () => {
           <ul>
             <li><a href="https://leetcode.com/u/urvashiiibh/">LeetCode ↗</a></li>
             <li><a href="#projects">Projects</a></li>
-            <li><a href='https://urvashi-about.vercel.app/'>About</a></li>
+            <li><a href='https://urvashi-about.vercel.app/'>^_^ About</a></li>
             
             <li><Link to="/blogs">Blogs</Link></li>
           </ul>
