@@ -111,3 +111,22 @@ hr {
     text-decoration: underline;
 }
 
+.terminal-link {
+  color: #00ff00;
+}
+
+.about-link {
+  color: #ff00ff;
+}
+
+.counselai-link{
+  color: #0096FF;
+}
+
+.projects-link{
+  color: #FF5733;
+}
+
+.lc-link{
+  color: rgb(34, 255, 185);
+}

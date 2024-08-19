@@ -11,10 +11,11 @@ const Sidebar: React.FC = () => {
         </div>
         <nav>
           <ul>
-            <li><a href="https://leetcode.com/u/urvashiiibh/">LeetCode ↗</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href='https://urvashi-about.vercel.app/'>About</a></li>
-            <li><a href='https://counsel-ai.vercel.app/'>Counsel AI</a></li>
+            <li><a href='https://urvashi-terminal.vercel.app/' className='terminal-link'>Terminal</a></li>
+            <li><a href='https://urvashi-about.vercel.app/' className='about-link'>About</a></li>
+            <li><a href="#projects" className='projects-link'>Projects</a></li>
+            <li><a href="https://leetcode.com/u/urvashiiibh/" className='lc-link'>LeetCode</a></li>
+            <li><a href='https://counsel-ai.vercel.app/' className='counselai-link'>Counsel.AI</a></li>
           </ul>
         </nav>
         <hr />
