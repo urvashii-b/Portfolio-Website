@@ -1,5 +1,5 @@
 import React from 'react';
-import Sidebar from './components/NavBar/Sidebar';
+import Sidebar from './components/Sidebar';
 import './index.css'
 
 import img1 from './assets/images/cpp.png';
@@ -33,7 +33,7 @@ const Home: React.FC = () => {
           </section>
           <section className="description">
             <p>
-              Urvashi is a computer science student and tech enthusiast, transforming innovative ideas into practical solutions. She's currently a developer at Hyderabad Ammonia & Chemicals and actively participates in hackathons.
+              Urvashi is a computer science student and tech enthusiast, transforming innovative ideas into practical solutions. She's currently a developer at Apple and actively participates in hackathons.
             </p>
           </section>
           <hr />
