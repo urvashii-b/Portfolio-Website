@@ -7,18 +7,58 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Runtime
+pids
+*.pid
+*.seed
+*.pid.lock
 
-# Editor directories and files
-.vscode/*
-!.vscode/extensions.json
-.idea
+# Dependency directories
+node_modules/
+
+# Build output
+dist/
+dist-ssr/
+build/
+out/
+
+# Vite
+.vite/
+
+# Local env files
+.env*
+!.env.example
+
+# System files
 .DS_Store
+Thumbs.db
+
+# IDEs and editors
+.vscode/
+!.vscode/extensions.json
+.idea/
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Coverage
+coverage/
+*.lcov
+
+# TypeScript
+*.tsbuildinfo
+
+# lock file
+package-lock.json
+
+# Misc
+*.local
+.cache/
+.parcel-cache/
+.next/
+.vercel/
+firebase-debug.log
+.eslintcache
+stylelintcache

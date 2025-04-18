@@ -10,11 +10,11 @@ body {
 .sidebar {
   position: sticky;
   top: 0;
-  width: 120px;
+  width: 180px;
   height: 100vh;
   background-color: #ffffff;
   padding: 20px;
-  box-shadow: 2px 0 5px rgba(0, 0, 0, 0.1);
+  box-shadow: 2px 0 10px rgba(0, 0, 0, 0.05);
   display: flex;
   justify-content: center;
   align-items: flex-start;
@@ -23,110 +23,79 @@ body {
 .sidebar-content {
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
   align-items: center;
-  margin-top: 40px;
   width: 100%;
 }
 
 .title {
-  font-size: 25px;
-  font-weight: 400;
-  background-color: #E0E0E0;
+  font-size: 24px;
+  font-weight: 600;
+  background-color: #f2f2f2;
   color: #000;
   padding: 10px 20px;
   border-radius: 12px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
   text-align: center;
+  transition: all 0.3s ease;
 }
 
 .title-link {
+  text-decoration: none;
   color: black;
-  text-decoration: none; /* Optional: Remove underline */
+  transition: color 0.3s ease;
 }
 
-/* Optional: Add hover effect if desired */
 .title-link:hover {
-  color: rgb(0, 229, 255); /* Or any other hover color */
+  color: #555;
 }
 
-.contact-title{
-font-size: 23px;
-  font-weight: 400;
-  color: #a4a2a2;
-  padding: 10px 20px;
-  text-align: center;
-}
-
-nav ul {
-  list-style-type: none;
+nav ul,
+.contact ul {
+  list-style: none;
   padding: 0;
-  text-align: center;
   width: 100%;
 }
 
-nav ul li {
-  margin: 15px 0;
+.nav-links li,
+.contact-links li {
+  margin: 12px 0;
+  width: 100%;
 }
 
-nav ul li a {
-  text-decoration: 0.3s;
+.nav-links li a,
+.contact-links li a {
+  display: flex;
+  align-items: center;
+  gap: 10px;
   color: #000;
-  transition: color 0.3s;
+  font-size: 15px;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 8px;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+.nav-links li a:hover,
+.contact-links li a:hover {
+  background-color: #000;
+  color: #fff;
+}
+
+.icon {
   font-size: 16px;
 }
 
-nav ul li a:hover{
-  color: #E0E0E0;
-  text-decoration: underline;
+.contact-title {
+  font-size: 20px;
+  font-weight: 500;
+  color: #888;
+  margin-bottom: 10px;
+  text-align: center;
 }
 
 hr {
   width: 100%;
   border: 0;
-  border-top: 1px solid #E0E0E0;
-  margin: 20px 0;
-}
-
-.contact ul {
-  list-style-type: none;
-  padding: 0;
-  text-align: center;
-  width: 100%;
-}
-
-.contact ul li {
-  margin: 15px 0;
-}
-
-.contact ul li a {
-    text-decoration: none;
-    color: #000;
-    transition: color 0.3s, text-decoration 0.3s;
-    font-size: 16px;
-  }
-  
-.contact ul li a:hover {
-    color: #E0E0E0;
-    text-decoration: underline;
-}
-
-.terminal-link {
-  color: #00ff00;
-}
-
-.about-link {
-  color: #ff00ff;
-}
-
-.counselai-link{
-  color: #0096FF;
-}
-
-.projects-link{
-  color: #FF5733;
-}
-
-.lc-link{
-  color: red;
+  border-top: 1px solid #e0e0e0;
+  margin: 25px 0;
 }
