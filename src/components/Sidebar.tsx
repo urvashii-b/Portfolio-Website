@@ -1,48 +1,62 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { FaTerminal, FaUser, FaProjectDiagram, FaCode, FaRobot, FaEnvelope, FaGithub, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { 
+  FaTerminal, 
+  FaUser, 
+  FaProjectDiagram, 
+  FaCode, 
+  FaRobot, 
+  FaEnvelope, 
+  FaGithub, 
+  FaLinkedin, 
+  FaTwitter 
+} from 'react-icons/fa';
 import './Sidebar.css';
 
 const Sidebar: React.FC = () => {
   return (
     <aside className="sidebar">
       <div className="sidebar-content">
+        {/* Title Section */}
         <div className="title">
           <Link to="/" className="title-link">उर्वशी</Link>
         </div>
 
+        {/* Navigation Links */}
         <nav>
           <ul className="nav-links">
             <li>
               <a href="https://urvashi-terminal.vercel.app/" target="_blank" rel="noopener noreferrer">
-                <FaTerminal className="icon" /> Terminal
+                <FaTerminal className="icon" /><span>Terminal</span>
               </a>
             </li>
             <li>
               <a href="https://urvashi-about.vercel.app/" target="_blank" rel="noopener noreferrer">
-                <FaUser className="icon" /> About
+                <FaUser className="icon" /><span>About</span>
               </a>
             </li>
             <li>
               <a href="#projects">
-                <FaProjectDiagram className="icon" /> Projects
+                <FaProjectDiagram className="icon" /><span>Projects</span>
               </a>
             </li>
             <li>
               <a href="https://leetcode.com/u/urvashiiibh/" target="_blank" rel="noopener noreferrer">
-                <FaCode className="icon" /> LeetCode
+                <FaCode className="icon" /><span>LeetCode</span>
               </a>
             </li>
             <li>
               <a href="https://counsel-ai.vercel.app/" target="_blank" rel="noopener noreferrer">
-                <FaRobot className="icon" /> Counsel.AI
+                <FaRobot className="icon" /><span>Counsel.AI</span>
               </a>
             </li>
           </ul>
         </nav>
 
+        {/* Separator */}
         <hr />
 
+        {/* Contact Section */}
         <div className="contact">
           <div className="contact-title">Contact</div>
           <ul className="contact-links">

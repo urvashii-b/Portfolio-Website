@@ -99,3 +99,66 @@ hr {
   border-top: 1px solid #e0e0e0;
   margin: 25px 0;
 }
+
+/* Responsive Sidebar */
+@media (max-width: 768px) {
+  .sidebar {
+    position: fixed;
+    top: 0;
+    bottom: auto;
+    width: 100%;
+    height: auto;
+    padding: 5px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+    z-index: 1000;
+    overflow-x: auto;
+    background-color: #fff;
+  }
+
+  .sidebar-content {
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    overflow-x: auto;
+  }
+
+  .title,
+  .contact,
+  hr {
+    display: none;
+  }
+
+  .nav-links {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+  }
+
+  .nav-links li {
+    margin: 0 10px;
+  }
+
+  .nav-links li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px; 
+    padding: 8px;
+    border-radius: 8px;
+  }
+
+  .icon {
+    display: none;
+  }
+
+  .nav-links li a span {
+    font-size: 12px; 
+  }
+
+  /* Hide Counsel.AI link on mobile */
+  .nav-links li a[href="https://counsel-ai.vercel.app/"] {
+    display: none;
+    margin-top: 0;
+  }
+}
